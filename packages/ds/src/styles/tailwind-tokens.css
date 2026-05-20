@@ -1,0 +1,22 @@
+@theme {
+  --color-surface-0: var(--ds-semantic-surface-0);
+  --color-surface-1: var(--ds-semantic-surface-1);
+  --color-surface-2: var(--ds-semantic-surface-2);
+  --color-surface-3: var(--ds-semantic-surface-3);
+  --color-surface-4: var(--ds-semantic-surface-4);
+  --color-surface-5: var(--ds-semantic-surface-5);
+
+  --color-border-subtle: var(--ds-semantic-border-subtle);
+  --color-border-default: var(--ds-semantic-border-default);
+  --color-border-strong: var(--ds-semantic-border-strong);
+
+  --color-text-primary: var(--ds-semantic-text-primary);
+  --color-text-secondary: var(--ds-semantic-text-secondary);
+  --color-text-muted: var(--ds-semantic-text-muted);
+  --color-text-disabled: var(--ds-semantic-text-disabled);
+
+  --color-status-available: var(--ds-semantic-status-available);
+  --color-status-warning: var(--ds-semantic-status-warning);
+  --color-status-error: var(--ds-semantic-status-error);
+  --color-status-restricted: var(--ds-semantic-status-restricted);
+}

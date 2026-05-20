@@ -1,0 +1,56 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --ds-color-neutral-1: #080808;
+  --ds-color-neutral-2: #0f0f0f;
+  --ds-color-neutral-3: #151515;
+  --ds-color-neutral-4: #1c1c1c;
+  --ds-color-neutral-5: #222222;
+  --ds-color-neutral-6: #2a2a2a;
+  --ds-color-neutral-7: #333333;
+  --ds-color-neutral-8: #444444;
+  --ds-color-neutral-9: #666666;
+  --ds-color-neutral-10: #888888;
+  --ds-color-neutral-11: #a1a1aa;
+  --ds-color-neutral-12: #e4e4e7;
+  --ds-color-green-1: #0a1a0a;
+  --ds-color-green-2: #0d240d;
+  --ds-color-green-3: #0f2f0f;
+  --ds-color-green-4: #133a13;
+  --ds-color-green-5: #166534;
+  --ds-color-green-6: #16a34a;
+  --ds-color-green-7: #22c55e;
+  --ds-color-green-8: #4ade80;
+  --ds-color-green-9: #86efac;
+  --ds-color-green-10: #bbf7d0;
+  --ds-color-green-11: #dcfce7;
+  --ds-color-green-12: #f0fdf4;
+  --ds-color-red-8: #f87171;
+  --ds-color-red-9: #fca5a5;
+  --ds-color-amber-8: #fbbf24;
+  --ds-color-amber-9: #fcd34d;
+  --ds-color-indigo-8: #818cf8;
+  --ds-color-indigo-9: #a5b4fc;
+  --ds-semantic-surface-0: #080808;
+  --ds-semantic-surface-1: #0f0f0f;
+  --ds-semantic-surface-2: #151515;
+  --ds-semantic-surface-3: #1c1c1c;
+  --ds-semantic-surface-4: #222222;
+  --ds-semantic-surface-5: #2a2a2a;
+  --ds-semantic-border-subtle: #1c1c1c;
+  --ds-semantic-border-default: #2a2a2a;
+  --ds-semantic-border-strong: #444444;
+  --ds-semantic-text-primary: #e4e4e7;
+  --ds-semantic-text-secondary: #a1a1aa;
+  --ds-semantic-text-muted: #888888;
+  --ds-semantic-text-disabled: #666666;
+  --ds-semantic-status-available: #4ade80;
+  --ds-semantic-status-warning: #fbbf24;
+  --ds-semantic-status-error: #f87171;
+  --ds-semantic-status-restricted: #818cf8;
+  --ds-semantic-state-hover: #1c1c1c;
+  --ds-semantic-state-pressed: #0f0f0f;
+  --ds-semantic-state-focus: #4ade80;
+}

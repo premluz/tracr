@@ -1,0 +1,54 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+export const ColorNeutral1 = "#080808";
+export const ColorNeutral2 = "#0f0f0f";
+export const ColorNeutral3 = "#151515";
+export const ColorNeutral4 = "#1c1c1c";
+export const ColorNeutral5 = "#222222";
+export const ColorNeutral6 = "#2a2a2a";
+export const ColorNeutral7 = "#333333";
+export const ColorNeutral8 = "#444444";
+export const ColorNeutral9 = "#666666";
+export const ColorNeutral10 = "#888888";
+export const ColorNeutral11 = "#a1a1aa";
+export const ColorNeutral12 = "#e4e4e7";
+export const ColorGreen1 = "#0a1a0a";
+export const ColorGreen2 = "#0d240d";
+export const ColorGreen3 = "#0f2f0f";
+export const ColorGreen4 = "#133a13";
+export const ColorGreen5 = "#166534";
+export const ColorGreen6 = "#16a34a";
+export const ColorGreen7 = "#22c55e";
+export const ColorGreen8 = "#4ade80";
+export const ColorGreen9 = "#86efac";
+export const ColorGreen10 = "#bbf7d0";
+export const ColorGreen11 = "#dcfce7";
+export const ColorGreen12 = "#f0fdf4";
+export const ColorRed8 = "#f87171";
+export const ColorRed9 = "#fca5a5";
+export const ColorAmber8 = "#fbbf24";
+export const ColorAmber9 = "#fcd34d";
+export const ColorIndigo8 = "#818cf8";
+export const ColorIndigo9 = "#a5b4fc";
+export const SemanticSurface0 = "#080808";
+export const SemanticSurface1 = "#0f0f0f";
+export const SemanticSurface2 = "#151515";
+export const SemanticSurface3 = "#1c1c1c";
+export const SemanticSurface4 = "#222222";
+export const SemanticSurface5 = "#2a2a2a";
+export const SemanticBorderSubtle = "#1c1c1c";
+export const SemanticBorderDefault = "#2a2a2a";
+export const SemanticBorderStrong = "#444444";
+export const SemanticTextPrimary = "#e4e4e7";
+export const SemanticTextSecondary = "#a1a1aa";
+export const SemanticTextMuted = "#888888";
+export const SemanticTextDisabled = "#666666";
+export const SemanticStatusAvailable = "#4ade80";
+export const SemanticStatusWarning = "#fbbf24";
+export const SemanticStatusError = "#f87171";
+export const SemanticStatusRestricted = "#818cf8";
+export const SemanticStateHover = "#1c1c1c";
+export const SemanticStatePressed = "#0f0f0f";
+export const SemanticStateFocus = "#4ade80";

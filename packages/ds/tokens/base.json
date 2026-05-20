@@ -1,0 +1,76 @@
+{
+  "color": {
+    "neutral": {
+      "1":  { "value": "#080808" },
+      "2":  { "value": "#0f0f0f" },
+      "3":  { "value": "#151515" },
+      "4":  { "value": "#1c1c1c" },
+      "5":  { "value": "#222222" },
+      "6":  { "value": "#2a2a2a" },
+      "7":  { "value": "#333333" },
+      "8":  { "value": "#444444" },
+      "9":  { "value": "#666666" },
+      "10": { "value": "#888888" },
+      "11": { "value": "#a1a1aa" },
+      "12": { "value": "#e4e4e7" }
+    },
+    "green": {
+      "1":  { "value": "#0a1a0a" },
+      "2":  { "value": "#0d240d" },
+      "3":  { "value": "#0f2f0f" },
+      "4":  { "value": "#133a13" },
+      "5":  { "value": "#166534" },
+      "6":  { "value": "#16a34a" },
+      "7":  { "value": "#22c55e" },
+      "8":  { "value": "#4ade80" },
+      "9":  { "value": "#86efac" },
+      "10": { "value": "#bbf7d0" },
+      "11": { "value": "#dcfce7" },
+      "12": { "value": "#f0fdf4" }
+    },
+    "red": {
+      "8": { "value": "#f87171" },
+      "9": { "value": "#fca5a5" }
+    },
+    "amber": {
+      "8": { "value": "#fbbf24" },
+      "9": { "value": "#fcd34d" }
+    },
+    "indigo": {
+      "8": { "value": "#818cf8" },
+      "9": { "value": "#a5b4fc" }
+    }
+  },
+  "semantic": {
+    "surface": {
+      "0": { "value": "#080808" },
+      "1": { "value": "#0f0f0f" },
+      "2": { "value": "#151515" },
+      "3": { "value": "#1c1c1c" },
+      "4": { "value": "#222222" },
+      "5": { "value": "#2a2a2a" }
+    },
+    "border": {
+      "subtle":  { "value": "#1c1c1c" },
+      "default": { "value": "#2a2a2a" },
+      "strong":  { "value": "#444444" }
+    },
+    "text": {
+      "primary":   { "value": "#e4e4e7" },
+      "secondary": { "value": "#a1a1aa" },
+      "muted":     { "value": "#888888" },
+      "disabled":  { "value": "#666666" }
+    },
+    "status": {
+      "available":  { "value": "#4ade80" },
+      "warning":    { "value": "#fbbf24" },
+      "error":      { "value": "#f87171" },
+      "restricted": { "value": "#818cf8" }
+    },
+    "state": {
+      "hover":   { "value": "#1c1c1c" },
+      "pressed": { "value": "#0f0f0f" },
+      "focus":   { "value": "#4ade80" }
+    }
+  }
+}
