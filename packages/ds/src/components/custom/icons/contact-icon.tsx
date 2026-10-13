@@ -1,0 +1,21 @@
+import * as React from "react"
+import { cn } from "@/lib/utils"
+import { iconStrokeWidth, type IconWeight } from "@/components/custom/icons/icon-weight"
+
+export interface ContactIconProps extends React.ComponentProps<"svg"> {
+  weight?: IconWeight
+}
+
+export function ContactIcon({ className, weight = "regular", ...props }: ContactIconProps) {
+  return (
+    <svg
+      viewBox="2.40 2.40 19.20 19.20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={cn("size-4", className)}
+      {...props}
+    >
+      <path d="M4 8.25L10.5319 12.5366C11.0609 12.8837 11.3253 13.0573 11.613 13.1245C11.8671 13.1839 12.1329 13.1839 12.387 13.1245C12.6747 13.0573 12.9391 12.8837 13.4681 12.5366L20 8.25M7.84 18H16.16C17.5041 18 18.1762 18 18.6896 17.7548C19.1412 17.539 19.5083 17.1948 19.7384 16.7715C20 16.2902 20 15.6601 20 14.4V9.6C20 8.33988 20 7.70982 19.7384 7.22852C19.5083 6.80516 19.1412 6.46095 18.6896 6.24524C18.1762 6 17.5041 6 16.16 6H7.84C6.49587 6 5.82381 6 5.31042 6.24524C4.85883 6.46095 4.49168 6.80516 4.26158 7.22852C4 7.70982 4 8.33988 4 9.6V14.4C4 15.6601 4 16.2902 4.26158 16.7715C4.49168 17.1948 4.85883 17.539 5.31042 17.7548C5.82381 18 6.49587 18 7.84 18Z" stroke="currentColor" strokeWidth={iconStrokeWidth[weight]} strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  )
+}

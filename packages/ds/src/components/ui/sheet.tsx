@@ -4,6 +4,7 @@ import { Dialog as SheetPrimitive } from "radix-ui"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { XIcon } from "lucide-react"
+import { iconStrokeWidth } from "@/components/custom/icons/icon-weight"
 
 function Sheet({ ...props }: React.ComponentProps<typeof SheetPrimitive.Root>) {
   return <SheetPrimitive.Root data-slot="sheet" {...props} />
@@ -74,6 +75,7 @@ function SheetContent({
               size="icon-sm"
             >
               <XIcon
+                strokeWidth={iconStrokeWidth.regular}
               />
               <span className="sr-only">Close</span>
             </Button>

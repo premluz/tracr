@@ -6,6 +6,7 @@ import { Dialog as DialogPrimitive } from "radix-ui"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
 import { XIcon } from "lucide-react"
+import { iconStrokeWidth } from "@/components/custom/icons/icon-weight"
 
 function Dialog({
   ...props
@@ -75,6 +76,7 @@ function DialogContent({
               size="icon-sm"
             >
               <XIcon
+                strokeWidth={iconStrokeWidth.regular}
               />
               <span className="sr-only">Close</span>
             </Button>

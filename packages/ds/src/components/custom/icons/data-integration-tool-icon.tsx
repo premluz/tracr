@@ -1,0 +1,21 @@
+import * as React from "react"
+import { cn } from "@/lib/utils"
+import { iconStrokeWidth, type IconWeight } from "@/components/custom/icons/icon-weight"
+
+export interface DataIntegrationToolIconProps extends React.ComponentProps<"svg"> {
+  weight?: IconWeight
+}
+
+export function DataIntegrationToolIcon({ className, weight = "regular", ...props }: DataIntegrationToolIconProps) {
+  return (
+    <svg
+      viewBox="1.19 1.16 21.73 21.73"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={cn("size-4", className)}
+      {...props}
+    >
+      <path d="M10.8091 7.48833C11.113 7.26893 11.4398 7.07931 11.7852 6.92374L12.4815 4.83496H15.6776L16.3739 6.92374C16.7193 7.07931 17.0461 7.26893 17.35 7.48833L19.5084 7.04665L21.1064 9.81459L19.6448 11.4629C19.6633 11.6482 19.6728 11.8361 19.6728 12.0263C19.6728 12.2164 19.6633 12.4044 19.6448 12.5896L21.1064 14.238L19.5084 17.0059L17.35 16.5642C17.0461 16.7836 16.7193 16.9733 16.3739 17.1288L15.6776 19.2176H12.4815L11.7852 17.1288C11.4398 16.9733 11.113 16.7836 10.8091 16.5642M9.21781 12.0498L3 12.0936M7.47573 14.0994L9.52542 12.0497L7.47573 10M15.8419 12.0261C15.8419 12.9087 15.1265 13.6242 14.2439 13.6242C13.3613 13.6242 12.6458 12.9087 12.6458 12.0261C12.6458 11.1435 13.3613 10.428 14.2439 10.428C15.1265 10.428 15.8419 11.1435 15.8419 12.0261Z" stroke="currentColor" strokeWidth={iconStrokeWidth[weight]} strokeLinecap="round" strokeLinejoin="round" />
+    </svg>
+  )
+}

@@ -1,4 +1,37 @@
 @theme {
+  /* ── Font families ─────────────────────────────────────── */
+  --font-family-display: "Inter Tight", sans-serif;
+  --font-family-body:    "Source Sans 3", sans-serif;
+
+  /* ── Font sizes ────────────────────────────────────────── */
+  --font-size-eyebrow: 0.75rem;    /* 12px */
+  --font-size-xs:      0.875rem;   /* 14px */
+  --font-size-sm:      1rem;       /* 16px */
+  --font-size-md:      1.125rem;   /* 18px */
+  --font-size-lg:      1.25rem;    /* 20px */
+  --font-size-xl:      1.5rem;     /* 24px */
+  --font-size-display-xs: 1.5rem;  /* 24px */
+  --font-size-display-sm: 1.875rem;/* 30px */
+  --font-size-display-md: 2.25rem; /* 36px */
+  --font-size-display-lg: 3rem;    /* 48px */
+  --font-size-display-xl: 3.75rem; /* 60px */
+  --font-size-display-2xl: 4.5rem; /* 72px */
+
+  /* ── Line heights ──────────────────────────────────────── */
+  --line-height-xs:         1.25rem;  /* 20px */
+  --line-height-sm:         1.5rem;   /* 24px */
+  --line-height-md:         1.75rem;  /* 28px */
+  --line-height-lg:         1.875rem; /* 30px */
+  --line-height-xl:         2rem;     /* 32px */
+  --line-height-display-xs: 2rem;     /* 32px */
+  --line-height-display-sm: 2.375rem; /* 38px */
+  --line-height-display-md: 2.75rem;  /* 44px */
+  --line-height-display-lg: 3.75rem;  /* 60px */
+  --line-height-display-xl: 4.5rem;   /* 72px */
+  --line-height-display-2xl: 5.625rem;/* 90px */
+
+  /* ── Colors ────────────────────────────────────────────── */
+  --color-bg: var(--ds-semantic-surface-0);
   --color-surface-0: var(--ds-semantic-surface-0);
   --color-surface-1: var(--ds-semantic-surface-1);
   --color-surface-2: var(--ds-semantic-surface-2);
@@ -6,6 +39,7 @@
   --color-surface-4: var(--ds-semantic-surface-4);
   --color-surface-5: var(--ds-semantic-surface-5);
 
+  --color-border-keyline: var(--ds-semantic-border-keyline);
   --color-border-subtle: var(--ds-semantic-border-subtle);
   --color-border-default: var(--ds-semantic-border-default);
   --color-border-strong: var(--ds-semantic-border-strong);
@@ -15,8 +49,16 @@
   --color-text-muted: var(--ds-semantic-text-muted);
   --color-text-disabled: var(--ds-semantic-text-disabled);
 
+  --color-accent: var(--ds-semantic-accent-default);
   --color-status-available: var(--ds-semantic-status-available);
+  --color-status-success: var(--ds-semantic-status-success);
   --color-status-warning: var(--ds-semantic-status-warning);
   --color-status-error: var(--ds-semantic-status-error);
   --color-status-restricted: var(--ds-semantic-status-restricted);
+
+  --color-badge-teal: #2dd4bf;
+  --color-badge-emerald: #34d399;
+  --color-badge-blue: #60a5fa;
+  --color-badge-yellow: #facc15;
+  --color-badge-pink: #f472b6;
 }
